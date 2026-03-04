@@ -133,7 +133,7 @@ Output: `report/GS_DAP_Public_Chain_Strategy_Report.pdf`
 **Principal Investigator**: Prof. Wei Cai  
 **Related Work**: HasciDB (470,000+ address sybil detection database)
 
-**Target Audience**: Mathew McDermott, Head of Digital Assets, Goldman Sachs
+**Target Audience**: Goldman Sachs Digital Assets Team
 
 ## Methodological Note
 
