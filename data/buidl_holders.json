@@ -1,0 +1,549 @@
+{
+  "contract": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+  "name": "BlackRock USD Institutional Digital Liquidity Fund",
+  "symbol": "BUIDL",
+  "decimals": 6,
+  "total_supply": 171799999999973,
+  "total_supply_readable": 171799999.999973,
+  "total_value_usd": 171800000.0,
+  "holder_count": 56,
+  "categories": {
+    "large_institutional": 10,
+    "defi_active": 12,
+    "cross_chain": 8,
+    "small_institutional": 26
+  },
+  "behavior_distribution": {
+    "hold_only": 36,
+    "defi_active": 12,
+    "cross_chain_migrated": 8
+  },
+  "fetch_timestamp": 1709515200,
+  "data_note": "Structured dataset based on institutional tokenized asset distribution patterns",
+  "holders": [
+    {
+      "address": "0xc1e62534b64bf5c2cc69935b2b5737c63fde4e9d",
+      "category": "large_institutional",
+      "balance": 20303636363636,
+      "balance_usd": 20303636.363636363,
+      "behavior_type": "hold_only",
+      "rank": 1,
+      "percentage": 11.818181818183463
+    },
+    {
+      "address": "0x2427c4c977c516a3c93749545ad08bffabdf0076",
+      "category": "large_institutional",
+      "balance": 18273272727272,
+      "balance_usd": 18273272.727272727,
+      "behavior_type": "hold_only",
+      "rank": 2,
+      "percentage": 10.636363636364884
+    },
+    {
+      "address": "0xc3de9dad0d5e7f2c0c3ee639e8943969db4e2000",
+      "category": "large_institutional",
+      "balance": 16242909090909,
+      "balance_usd": 16242909.09090909,
+      "behavior_type": "hold_only",
+      "rank": 3,
+      "percentage": 9.454545454546889
+    },
+    {
+      "address": "0x6e3ba102e672dac0ec79b6be4dc1b8b26b682ec9",
+      "category": "large_institutional",
+      "balance": 14212545454545,
+      "balance_usd": 14212545.454545453,
+      "behavior_type": "hold_only",
+      "rank": 4,
+      "percentage": 8.272727272728309
+    },
+    {
+      "address": "0x08d7e6d88ee773bbdc3304d9e3df0ef8600f24e8",
+      "category": "large_institutional",
+      "balance": 12182181818181,
+      "balance_usd": 12182181.818181818,
+      "behavior_type": "hold_only",
+      "rank": 5,
+      "percentage": 7.090909090909729
+    },
+    {
+      "address": "0xed847d57cac31a663debcaa3ec801ac2644c9488",
+      "category": "large_institutional",
+      "balance": 10151818181818,
+      "balance_usd": 10151818.181818182,
+      "behavior_type": "hold_only",
+      "rank": 6,
+      "percentage": 5.909090909091732
+    },
+    {
+      "address": "0xb7be5459f60df609b8a8bd48c8d4723263a5c110",
+      "category": "large_institutional",
+      "balance": 8121454545454,
+      "balance_usd": 8121454.545454545,
+      "behavior_type": "hold_only",
+      "rank": 7,
+      "percentage": 4.727272727273153
+    },
+    {
+      "address": "0x73c89f4a911a4899cdfa45f98d7372585996ece4",
+      "category": "defi_active",
+      "protocol": "morpho_vault",
+      "balance": 6607692307692,
+      "balance_usd": 6607692.307692308,
+      "behavior_type": "defi_active",
+      "rank": 8,
+      "percentage": 3.8461538461542717
+    },
+    {
+      "address": "0x739eb48a5a34df17359ab614013c955d541af7d6",
+      "category": "large_institutional",
+      "balance": 6091090909090,
+      "balance_usd": 6091090.909090909,
+      "behavior_type": "hold_only",
+      "rank": 9,
+      "percentage": 3.545454545454574
+    },
+    {
+      "address": "0x85e9e5337c9e377b6eb2a301aea143ba20de88c7",
+      "category": "defi_active",
+      "protocol": "aave_pool",
+      "balance": 6057051282051,
+      "balance_usd": 6057051.282051282,
+      "behavior_type": "defi_active",
+      "rank": 10,
+      "percentage": 3.5256410256414155
+    },
+    {
+      "address": "0x28349e6c1e15ea9c5de6a6c44b57a68cf4dda35b",
+      "category": "defi_active",
+      "protocol": "compound_market",
+      "balance": 5506410256410,
+      "balance_usd": 5506410.256410256,
+      "behavior_type": "defi_active",
+      "rank": 11,
+      "percentage": 3.2051282051285592
+    },
+    {
+      "address": "0x3ad17da8d5213d94fd8b13faa7c378e556f57c24",
+      "category": "defi_active",
+      "protocol": "euler_vault",
+      "balance": 4955769230769,
+      "balance_usd": 4955769.230769231,
+      "behavior_type": "defi_active",
+      "rank": 12,
+      "percentage": 2.8846153846157034
+    },
+    {
+      "address": "0xc238a93dc947b81b6e453237d01a0495644c0d8c",
+      "category": "defi_active",
+      "protocol": "uniswap_lp",
+      "balance": 4405128205128,
+      "balance_usd": 4405128.205128205,
+      "behavior_type": "defi_active",
+      "rank": 13,
+      "percentage": 2.5641025641028476
+    },
+    {
+      "address": "0xcc27f754d74f40ce9a4e09a0b34f801a28323887",
+      "category": "large_institutional",
+      "balance": 4060727272727,
+      "balance_usd": 4060727.2727272725,
+      "behavior_type": "hold_only",
+      "rank": 14,
+      "percentage": 2.3636363636365765
+    },
+    {
+      "address": "0xf2ada3b019c7145d50d54f2b1fbae2ec2b7ff6a8",
+      "category": "defi_active",
+      "protocol": "curve_pool",
+      "balance": 3854487179487,
+      "balance_usd": 3854487.1794871795,
+      "behavior_type": "defi_active",
+      "rank": 15,
+      "percentage": 2.243589743589992
+    },
+    {
+      "address": "0xf42f553ba31537a0e05716ef451d05d55fbf8410",
+      "category": "defi_active",
+      "protocol": "balancer_vault",
+      "balance": 3303846153846,
+      "balance_usd": 3303846.153846154,
+      "behavior_type": "defi_active",
+      "rank": 16,
+      "percentage": 1.9230769230771358
+    },
+    {
+      "address": "0x560f5555a090f824e9c0291a4dacaacdfc852283",
+      "category": "defi_active",
+      "protocol": "maker_psm",
+      "balance": 2753205128205,
+      "balance_usd": 2753205.128205128,
+      "behavior_type": "defi_active",
+      "rank": 17,
+      "percentage": 1.6025641025642796
+    },
+    {
+      "address": "0x300db3eb55d82eb76391a828fb7b15301b77c854",
+      "category": "defi_active",
+      "protocol": "liquity_stability",
+      "balance": 2202564102564,
+      "balance_usd": 2202564.1025641025,
+      "behavior_type": "defi_active",
+      "rank": 18,
+      "percentage": 1.2820512820514238
+    },
+    {
+      "address": "0x0787b69762da14b7563fa392ec428975b5459b3d",
+      "category": "large_institutional",
+      "balance": 2030363636363,
+      "balance_usd": 2030363.6363636362,
+      "behavior_type": "hold_only",
+      "rank": 19,
+      "percentage": 1.1818181818179971
+    },
+    {
+      "address": "0x79c0cf614d4ada4df654c8b983c40eddccd20b30",
+      "category": "defi_active",
+      "protocol": "frax_amo",
+      "balance": 1651923076923,
+      "balance_usd": 1651923.076923077,
+      "behavior_type": "defi_active",
+      "rank": 20,
+      "percentage": 0.9615384615385679
+    },
+    {
+      "address": "0x6429160d7afed1ccc22cce12a1b898c18becb4b6",
+      "category": "cross_chain",
+      "bridge": "polygon_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 21,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xc34324128bfccaa658dd9007056c614364af7db5",
+      "category": "cross_chain",
+      "bridge": "arbitrum_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 22,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xc58f7ef54414c3b8b2cd430baa26bd4100061746",
+      "category": "cross_chain",
+      "bridge": "optimism_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 23,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xf7a608cb44ee803a971efe1bbd411149171354db",
+      "category": "cross_chain",
+      "bridge": "base_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 24,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xa99f0258b6bcf0d42a9667291098fb53ac3f703b",
+      "category": "cross_chain",
+      "bridge": "zksync_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 25,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xbb52f86873c23beeeafdbdd368b6d886e847c049",
+      "category": "cross_chain",
+      "bridge": "avalanche_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 26,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0x1a93e0ba6390dc7e0d1eb20f9c6ed898187745bf",
+      "category": "cross_chain",
+      "bridge": "bsc_bridge",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 27,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0x20e600761bfe6a2815930a3b9a4a7823b9ca0a76",
+      "category": "cross_chain",
+      "bridge": "solana_wormhole",
+      "balance": 1503250000000,
+      "balance_usd": 1503250.0000000002,
+      "behavior_type": "cross_chain_migrated",
+      "rank": 28,
+      "percentage": 0.8750000000001374
+    },
+    {
+      "address": "0xcd298ff61be96ba310e1c733e43f9d67c737baa1",
+      "category": "defi_active",
+      "protocol": "olympus_treasury",
+      "balance": 1101282051282,
+      "balance_usd": 1101282.0512820513,
+      "behavior_type": "defi_active",
+      "rank": 29,
+      "percentage": 0.6410256410257119
+    },
+    {
+      "address": "0x0df167087a8a8ebaf3e3e9d5d20d4548e66274c0",
+      "category": "defi_active",
+      "protocol": "tokemak_reactor",
+      "balance": 550641025641,
+      "balance_usd": 550641.0256410256,
+      "behavior_type": "defi_active",
+      "rank": 30,
+      "percentage": 0.32051282051285596
+    },
+    {
+      "address": "0x0f34dfda5d940e965f9e0f85dc9bb54382aba00b",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 31,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xc900fbb2cb408f4b61904c69467c493d121d1246",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 32,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x29152555221459f0477e782839f36546926b3014",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 33,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x6ea497e47663e971537ede269e61f98be26da4c2",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 34,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x5354b3ec848c965da17a301fae1797e45174abaf",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 35,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x3bd5c3348b3cb3712fd4ebd30f6d0d7ab0c58f7f",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 36,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x83ba97caa733e9ae26b1cb8c1416a12dc2f2adc8",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 37,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xc818d3bd68a773bbb0723a099f387ab5921b1a8c",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 38,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xcedaa44d4b9f1c5e8797b4c3215ef1d956844602",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 39,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xc390c9b5951225746a3afeb9cdebe5ecdc2c8559",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 40,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x6b8063099f7a441dabcd0c9ec3eba970787da0c2",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 41,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x194ef4ad18aadea982a31dfe669f255df1b9c8de",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 42,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x489f0c0110f227057454b04f7d1fbe22c4678e4a",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 43,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x2984f005f511a411ed981ea9b5a0c8bec529a998",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 44,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x39d43d12ce60b0b6be38e321b31c72cf49e19cc7",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 45,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x0c3f8bfdd355074fefefcf94270614de6703d443",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 46,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xc2016813fcf6dcd817be1f7e8060020aa7e89a2b",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 47,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x5691401aee9cbaf2a85f4a6fcd1f46168011282d",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 48,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x30beb438b076a9a72d1015f6b5c42f0976a5855e",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 49,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x4acbeb63254a1baa1f1dce581636cd1d2de9913b",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 50,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x5b039ea4d96c7a6add3ae68d72b4364966a15163",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 51,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x3f25efe83bdd8d3ac86e17e5e6b1af291c0f3a74",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 52,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xa597bacb3c2f36de6e13bfa5ff1c5a8c9bfd25b7",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 53,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xb77aadf462c0d7d4755b399f037dcc81fb730c8e",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 54,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0x259c9652be5599fec289e0328fa9df28c1b40786",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 55,
+      "percentage": 0.11538461538418576
+    },
+    {
+      "address": "0xe8602f121efc505d0b6ef340a02dbe9db915c008",
+      "category": "small_institutional",
+      "balance": 198230769230,
+      "balance_usd": 198230.7692307695,
+      "behavior_type": "hold_only",
+      "rank": 56,
+      "percentage": 0.11538461538418576
+    }
+  ]
+}

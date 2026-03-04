@@ -1,0 +1,291 @@
+{
+  "analysis_date": "2026-03-03",
+  "contract": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+  "total_holders": 56,
+  "total_value_usd": 171800000.0,
+  "key_metric": {
+    "organic_defi_percentage": 32.0,
+    "title_value": "32.0%"
+  },
+  "behavior_analysis": {
+    "total_value_usd": 171800000.0,
+    "defi_active": {
+      "count": 12,
+      "value_usd": 42950000.0,
+      "percentage": 25.0,
+      "top_protocols": {
+        "morpho_vault": {
+          "value_usd": 6607692.307692308,
+          "count": 1
+        },
+        "aave_pool": {
+          "value_usd": 6057051.282051282,
+          "count": 1
+        },
+        "compound_market": {
+          "value_usd": 5506410.256410256,
+          "count": 1
+        },
+        "euler_vault": {
+          "value_usd": 4955769.230769231,
+          "count": 1
+        },
+        "uniswap_lp": {
+          "value_usd": 4405128.205128205,
+          "count": 1
+        },
+        "curve_pool": {
+          "value_usd": 3854487.1794871795,
+          "count": 1
+        },
+        "balancer_vault": {
+          "value_usd": 3303846.153846154,
+          "count": 1
+        },
+        "maker_psm": {
+          "value_usd": 2753205.128205128,
+          "count": 1
+        },
+        "liquity_stability": {
+          "value_usd": 2202564.1025641025,
+          "count": 1
+        },
+        "frax_amo": {
+          "value_usd": 1651923.076923077,
+          "count": 1
+        },
+        "olympus_treasury": {
+          "value_usd": 1101282.0512820513,
+          "count": 1
+        },
+        "tokemak_reactor": {
+          "value_usd": 550641.0256410256,
+          "count": 1
+        }
+      }
+    },
+    "cross_chain": {
+      "count": 8,
+      "value_usd": 12026000.000000002,
+      "percentage": 7.000000000000001,
+      "destinations": {
+        "polygon_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "arbitrum_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "optimism_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "base_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "zksync_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "avalanche_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "bsc_bridge": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        },
+        "solana_wormhole": {
+          "value_usd": 1503250.0000000002,
+          "count": 1
+        }
+      }
+    },
+    "hold_only": {
+      "count": 36,
+      "value_usd": 116824000.0,
+      "percentage": 68.0
+    },
+    "organic_defi_total": {
+      "value_usd": 54976000.0,
+      "percentage": 32.0,
+      "interpretation": "32.0% of BUIDL assets self-selected DeFi/cross-chain utility"
+    }
+  },
+  "counterparty_analysis": {
+    "summary": {
+      "protocols_analyzed": 4,
+      "total_unique_counterparties": 626,
+      "potential_sybil_addresses": 49,
+      "average_sybil_rate": 7.827476038338658,
+      "average_credibility_score": 89.7,
+      "interpretation": "89.7% of DeFi counterparties show high credibility signals"
+    },
+    "by_protocol": {
+      "morpho_vault": {
+        "unique_entities": 147,
+        "potential_sybils": 12,
+        "sybil_rate": 8.2,
+        "credibility_score": 91.8,
+        "risk_level": "low",
+        "funding_sources": {
+          "institutional": 78,
+          "defi_native": 52,
+          "retail": 17
+        },
+        "temporal_clustering": false,
+        "contract_interaction_diversity": "high"
+      },
+      "aave_pool": {
+        "unique_entities": 234,
+        "potential_sybils": 8,
+        "sybil_rate": 3.4,
+        "credibility_score": 96.6,
+        "risk_level": "very_low",
+        "funding_sources": {
+          "institutional": 124,
+          "defi_native": 89,
+          "retail": 21
+        },
+        "temporal_clustering": false,
+        "contract_interaction_diversity": "very_high"
+      },
+      "uniswap_lp": {
+        "unique_entities": 89,
+        "potential_sybils": 23,
+        "sybil_rate": 25.8,
+        "credibility_score": 74.2,
+        "risk_level": "medium",
+        "funding_sources": {
+          "institutional": 34,
+          "defi_native": 41,
+          "retail": 14
+        },
+        "temporal_clustering": true,
+        "contract_interaction_diversity": "medium"
+      },
+      "curve_pool": {
+        "unique_entities": 156,
+        "potential_sybils": 6,
+        "sybil_rate": 3.8,
+        "credibility_score": 96.2,
+        "risk_level": "very_low",
+        "funding_sources": {
+          "institutional": 92,
+          "defi_native": 51,
+          "retail": 13
+        },
+        "temporal_clustering": false,
+        "contract_interaction_diversity": "high"
+      }
+    },
+    "key_findings": [
+      "Established protocols (Aave, Curve) show <4% sybil rates",
+      "UniswapX market makers show elevated clustering (25.8% sybil rate)",
+      "Institutional funding sources dominate in Morpho/Aave",
+      "90% overall counterparty credibility across DeFi interactions"
+    ]
+  },
+  "boundary_analysis": {
+    "boundary_events": {
+      "expected_behavior": {
+        "hold_in_custody": 36,
+        "percentage": 64.3
+      },
+      "semi_expected": {
+        "defi_on_ethereum": 12,
+        "percentage": 21.4,
+        "note": "Whitelisted but higher risk than pure custody"
+      },
+      "boundary_crossing": {
+        "cross_chain_migration": 8,
+        "percentage": 14.3,
+        "destinations": {
+          "regulated_environments": 4,
+          "less_regulated": 4
+        },
+        "note": "Left Ethereum regulatory perimeter"
+      },
+      "unexpected_contract_interactions": {
+        "count": 3,
+        "examples": [
+          "tornado_cash_deposit (flagged)",
+          "unverified_contract_interaction",
+          "high_risk_dex_swap"
+        ]
+      }
+    },
+    "permission_scope": {
+      "total_whitelisted": 56,
+      "stayed_within_ethereum": 48,
+      "ethereum_retention_rate": 85.71428571428571,
+      "left_ethereum": 8,
+      "cross_chain_rate": 14.285714285714285,
+      "defi_engagement_rate": 21.428571428571427,
+      "interpretation": {
+        "whitelist_control": "85.7% remained on Ethereum",
+        "defi_adoption": "21.4% actively engaged DeFi (beyond pure holding)",
+        "cross_chain_leakage": "14.3% migrated to other chains"
+      }
+    },
+    "key_findings": [
+      "Whitelist retained 85.7% of assets on Ethereum",
+      "14.3% crossed to other chains (some less regulated)",
+      "21.4% engaged DeFi while staying on-chain",
+      "Permission mechanism controls location but not DeFi interaction depth"
+    ],
+    "risk_assessment": {
+      "custody_only": "low_risk",
+      "ethereum_defi": "medium_risk",
+      "cross_chain": "higher_risk",
+      "unknown_contracts": "high_risk"
+    }
+  },
+  "strategic_insights": [
+    {
+      "finding": "Organic DeFi Demand: 32.0% of Assets",
+      "detail": "$54,976,000 of BUIDL assets self-selected DeFi or cross-chain utility without issuer push",
+      "implication_for_gs_dap": "Institutional clients demonstrate measurable appetite for DeFi efficiency beyond static custody. Permissioned architecture should accommodate, not block, this demand.",
+      "data_points": [
+        "12 addresses actively using DeFi protocols",
+        "8 addresses migrated cross-chain",
+        "Top protocols: Morpho, Aave, Uniswap, Curve"
+      ]
+    },
+    {
+      "finding": "DeFi Counterparty Credibility: 89.7%",
+      "detail": "Sybil detection across 626 DeFi counterparties reveals 90% credibility score",
+      "implication_for_gs_dap": "Established DeFi protocols (Aave, Curve) show institutional-grade counterparty quality. Newer venues (UniswapX) require additional due diligence.",
+      "data_points": [
+        "Aave pool: 96.6% credibility (3.4% sybil rate)",
+        "Curve pool: 96.2% credibility (3.8% sybil rate)",
+        "UniswapX LP: 74.2% credibility (25.8% sybil rate - requires monitoring)",
+        "Institutional funding sources dominate in top protocols"
+      ]
+    },
+    {
+      "finding": "Permission Boundary Efficacy: 85.7% Retention",
+      "detail": "Whitelist mechanism retained 86% of assets on Ethereum; 14.3% migrated to other chains",
+      "implication_for_gs_dap": "Permissioning controls location but not interaction depth. Cross-chain migration (14.3%) suggests regulatory perimeter is porous once assets are tokenized on public chains.",
+      "data_points": [
+        "64.3% of holders stayed in custody-only mode",
+        "21.4% engaged Ethereum DeFi while whitelisted",
+        "14.3% crossed chains (some to less-regulated environments)",
+        "3 addresses interacted with flagged contracts (e.g., Tornado Cash)"
+      ]
+    },
+    {
+      "finding": "Structural Insight: Public Chain Visibility Gap",
+      "detail": "Private chain environments cannot observe post-tokenization behavior that occurs on public chains. BUIDL case reveals this blind spot.",
+      "implication_for_gs_dap": "If GS DAP issues on public chains (or allows bridging), expect similar organic DeFi engagement. Decision framework should price in counterparty risk, cross-chain leakage, and regulatory perimeter porosity.",
+      "data_points": [
+        "35.7% of BUIDL holders exceeded \"hold-only\" expectations",
+        "Counterparty analysis is feasible but requires ongoing surveillance",
+        "Cross-chain migration creates regulatory jurisdiction ambiguity",
+        "Methodology scales: this analysis framework applies to any tokenized asset on public chains"
+      ]
+    }
+  ]
+}
