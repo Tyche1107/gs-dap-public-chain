@@ -1,0 +1,18 @@
+{
+  "public_rwa_tvl": 1851000000,
+  "gs_dap_tvl": 500000000,
+  "gs_dap_clients": 3,
+  "market_share_gap": 72.98757428417072,
+  "tvl_estimates": {
+    "Ondo USDY": 176000000,
+    "Ondo OUSG": 245000000,
+    "Backed IB01": 180000000,
+    "Centrifuge": 425000000,
+    "Maple Finance": 380000000,
+    "Goldfinch": 120000000,
+    "Credix": 85000000,
+    "TrueFi": 95000000,
+    "Clearpool": 145000000
+  },
+  "valuation_premium": 0.0
+}
